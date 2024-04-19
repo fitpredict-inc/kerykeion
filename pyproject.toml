@@ -40,6 +40,9 @@ classifiers = [
 # To include Kerykeion itself
 packages = [{ include = "kerykeion" }]
 
+[tool.setuptools]
+packages = ["kerykeion"]
+
 [tool.poetry.dependencies]
 python = "^3.9"
 pyswisseph = "^2.10.3.1"
