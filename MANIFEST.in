@@ -3,3 +3,4 @@ include LICENSE.txt
 recursive-include kerykeion *.xml
 recursive-include kerykeion *.json
 recursive-include kerykeion *.se1
+recursive-include kerykeion *.py
