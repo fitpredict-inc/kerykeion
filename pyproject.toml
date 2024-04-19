@@ -1,3 +1,6 @@
+[tool.setuptools]
+py-modules = []
+
 [tool.poetry]
 name = "kerykeion"
 version = "4.4.2"
@@ -39,13 +42,6 @@ classifiers = [
 
 # To include Kerykeion itself
 packages = [{ include = "kerykeion" }]
-
-[tool.setuptools]
-packages = ["kerykeion"]
-
-[project]
-name = "kerykeion"
-requires-python = ">=3.9"
 
 [tool.poetry.dependencies]
 python = "^3.9"
