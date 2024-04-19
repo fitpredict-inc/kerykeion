@@ -43,6 +43,10 @@ packages = [{ include = "kerykeion" }]
 [tool.setuptools]
 packages = ["kerykeion"]
 
+[project]
+name = "kerykeion"
+requires-python = ">=3.9"
+
 [tool.poetry.dependencies]
 python = "^3.9"
 pyswisseph = "^2.10.3.1"
