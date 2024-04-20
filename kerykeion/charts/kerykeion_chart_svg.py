@@ -1218,7 +1218,7 @@ class KerykeionChartSVG:
     def _makeAspectGrid(self, r):
         out = ""
         style = (
-            f"stroke:{self.chart_colors_settings["base_color_font"]}; stroke-width: {self.width*0.001}px; stroke-opacity:1; fill:none")
+            f'stroke:{self.chart_colors_settings["base_color_font"]}; stroke-width: {self.width*0.001}px; stroke-opacity:1; fill:none')
 
         xindent = self.width * 0.71
         yindent = self.height * 0.85
